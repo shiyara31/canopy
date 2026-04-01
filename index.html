@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canopy Company | Architectural Landscaping & Luxury Design</title>
+    <meta name="description" content="Canopy Company: Crafting timeless outdoor experiences. Bespoke landscape architecture and luxury interior-exterior fitouts.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="is-loading">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="line"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="site-header">
+        <div class="logo">
+            <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 10L90 90L50 80L10 90L50 10Z" stroke="var(--accent)" stroke-width="2" />
+                <circle cx="50" cy="50" r="5" fill="var(--accent)" />
+            </svg>
+            <span>CANOPY</span>
+        </div>
+        <div class="menu-trigger" id="menuToggle">
+            <div class="burger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation Overlay -->
+    <nav id="menu-overlay">
+        <div class="overlay-bg"></div>
+        <div class="overlay-content container">
+            <div class="nav-section">
+                <ul class="nav-list">
+                    <li><a href="#hero" data-text="Home">Home</a></li>
+                    <li><a href="#about" data-text="About">About</a></li>
+                    <li><a href="#services" data-text="Services">Services</a></li>
+                    <li><a href="#" class="nav-work-trigger" data-text="Work">Work</a></li>
+                    <li><a href="#contact" data-text="Contact">Contact</a></li>
+                </ul>
+                <div class="overlay-footer">
+                    <div class="social-mini">
+                        <a href="#">IN</a>
+                        <a href="#">LI</a>
+                        <a href="#">BE</a>
+                    </div>
+                    <div class="contact-mini">
+                        <p>hello@canopycompany.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-showcase">
+                <div class="showcase-header">
+                    <span class="section-tag">Featured Portfolio</span>
+                    <h2 class="showcase-title">Exquisite Gardens</h2>
+                </div>
+                <div class="showcase-grid" id="showcaseGrid">
+                    <!-- Dynamic Gallery Items -->
+                    <div class="showcase-item active" data-cat="landscape" style="background-image: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000');">
+                        <div class="info">
+                            <h4>Villa Jumeirah</h4>
+                            <span>Landscaping</span>
+                        </div>
+                    </div>
+                    <div class="showcase-item" data-cat="pool" style="background-image: url('https://images.unsplash.com/photo-1590490360182-c33d59735288?auto=format&fit=crop&q=80&w=1000');">
+                        <div class="info">
+                            <h4>Azure Infinity</h4>
+                            <span>Pool Design</span>
+                        </div>
+                    </div>
+                    <div class="showcase-item" data-cat="interior" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1000');">
+                        <div class="info">
+                            <h4>The Atrium</h4>
+                            <span>Fitout</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-nav">
+                    <button class="active" data-show="0">01</button>
+                    <button data-show="1">02</button>
+                    <button data-show="2">03</button>
+                </div>
+            </div>
+        </div>
+        <div class="close-overlay">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content wrapper -->
+    <main id="main-scroll">
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-minimal">
+            <div class="hero-visual">
+                <div class="hero-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=2000" alt="Luxury Architecture" class="parallax-img">
+                </div>
+            </div>
+            <div class="hero-text container">
+                <span class="reveal-text">Since 2012</span>
+                <h1 class="reveal-text">Curating <br> <span class="text-accent italic">Atmospheres</span></h1>
+                <p class="reveal-text">Bespoke landscape architecture for the most discerning estates.</p>
+                <div class="hero-scroll">
+                    <div class="line-grow"></div>
+                    <span>Explore</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section (About) -->
+        <section id="about" class="philosophy">
+            <div class="container narrow">
+                <div class="philosophy-header scroll-reveal">
+                    <span class="section-tag">Our Philosophy</span>
+                    <h2>Nature, Refined.</h2>
+                </div>
+                <div class="philosophy-content scroll-reveal delay-1">
+                    <p class="large">We believe that luxury lies in the harmony between structured architecture and organic growth. At Canopy, every project is a narrative told through stone, water, and leaf.</p>
+                    <div class="philosophy-grid">
+                        <div class="phil-item">
+                            <h3>Sustainability</h3>
+                            <p>Using indigenous flora and smart irrigation to maintain beauty without compromise.</p>
+                        </div>
+                        <div class="phil-item">
+                            <h3>Elegance</h3>
+                            <p>Clean lines and premium materials that elevate the outdoor living experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section (Services) -->
+        <section id="services" class="expertise">
+            <div class="expertise-bg-tint"></div>
+            <div class="container row">
+                <div class="expertise-sticky scroll-reveal">
+                    <span class="section-tag">Expertise</span>
+                    <h2>Elevating the <br><span class="text-accent">Standard</span></h2>
+                    <p>From conceptually distinct swimming pools to seamless interior-exterior fitouts, our services are comprehensive and bespoke.</p>
+                </div>
+                <div class="expertise-list">
+                    <div class="exp-card scroll-reveal" data-img="landscape">
+                        <span class="count">01</span>
+                        <h3>Landscape Architecture</h3>
+                        <p>Master-planned gardens that breathe life into architectural structures.</p>
+                    </div>
+                    <div class="exp-card scroll-reveal delay-1" data-img="living">
+                        <span class="count">02</span>
+                        <h3>Outdoor Living</h3>
+                        <p>High-end lounges, fire pits, and kitchens for the ultimate lifestyle.</p>
+                    </div>
+                    <div class="exp-card scroll-reveal delay-2" data-img="pool">
+                        <span class="count">03</span>
+                        <h3>Water Features</h3>
+                        <p>Technically advanced infinity pools and tranquil fountains.</p>
+                    </div>
+                    <div class="exp-card scroll-reveal delay-3" data-img="fitout">
+                        <span class="count">04</span>
+                        <h3>Bespoke Fitouts</h3>
+                        <p>Seamless structural designs for the perfect transition.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="minimal-stats container">
+            <div class="stat-box scroll-reveal">
+                <span class="stat-val" data-target="12">12</span>
+                <span class="stat-txt">Years</span>
+            </div>
+            <div class="stat-box scroll-reveal delay-1">
+                <span class="stat-val" data-target="450">450</span>
+                <span class="stat-txt">Projects</span>
+            </div>
+            <div class="stat-box scroll-reveal delay-2">
+                <span class="stat-val" data-target="320">320</span>
+                <span class="stat-txt">Clients</span>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section id="contact" class="minimal-contact">
+            <div class="container center-content">
+                <div class="contact-card glass scroll-reveal">
+                    <span class="section-tag">Inquiry</span>
+                    <h2>Start Your <span class="text-accent">Odyssey</span></h2>
+                    <p>Begin a conversation regarding your next architectural landscape project.</p>
+                    <a href="mailto:hello@canopycompany.com" class="btn-minimal">Connect with us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="minimal-footer">
+            <div class="container footer-flex">
+                <div class="footer-left">
+                    <p>&copy; 2026 Canopy Company.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
