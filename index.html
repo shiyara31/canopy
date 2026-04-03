@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canopy Company | Architectural Landscaping & Luxury Design</title>
-    <meta name="description" content="Canopy Company: Crafting timeless outdoor experiences. Bespoke landscape architecture and luxury interior-exterior fitouts.">
+    <title>Canopy Architects | Luxury High-End Architectural Landscapes</title>
+    <meta name="description" content="Canopy Architects: Master-planning, architecture consultancy, and luxury landscape fit-outs. We craft cinematic architectural experiences.">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -18,25 +18,27 @@
 </head>
 <body class="is-loading">
 
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
     <!-- Preloader -->
     <div id="preloader">
-        <div class="line"></div>
+        <div class="loader-text">CANOPY ARCHITECTS</div>
     </div>
 
     <!-- Header -->
     <header id="site-header">
         <div class="logo">
-            <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M50 10L90 90L50 80L10 90L50 10Z" stroke="var(--accent)" stroke-width="2" />
-                <circle cx="50" cy="50" r="5" fill="var(--accent)" />
+            <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 5L95 95L50 85L5 95L50 5Z" stroke="#BFA16F" stroke-width="2" />
+                <circle cx="50" cy="50" r="4" fill="#BFA16F" />
             </svg>
             <span>CANOPY</span>
         </div>
         <div class="menu-trigger" id="menuToggle">
-            <div class="burger">
-                <span></span>
-                <span></span>
-            </div>
+            <span></span>
+            <span></span>
         </div>
     </header>
 
@@ -49,50 +51,17 @@
                     <li><a href="#hero" data-text="Home">Home</a></li>
                     <li><a href="#about" data-text="About">About</a></li>
                     <li><a href="#services" data-text="Services">Services</a></li>
-                    <li><a href="#" class="nav-work-trigger" data-text="Work">Work</a></li>
+                    <li><a href="#why" data-text="Process">Process</a></li>
+                    <li><a href="#work" data-text="Portfolio">Portfolio</a></li>
                     <li><a href="#contact" data-text="Contact">Contact</a></li>
                 </ul>
                 <div class="overlay-footer">
                     <div class="social-mini">
-                        <a href="#">IN</a>
-                        <a href="#">LI</a>
-                        <a href="#">BE</a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
                     </div>
-                    <div class="contact-mini">
-                        <p>hello@canopycompany.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="work-showcase">
-                <div class="showcase-header">
-                    <span class="section-tag">Featured Portfolio</span>
-                    <h2 class="showcase-title">Exquisite Gardens</h2>
-                </div>
-                <div class="showcase-grid" id="showcaseGrid">
-                    <!-- Dynamic Gallery Items -->
-                    <div class="showcase-item active" data-cat="landscape" style="background-image: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000');">
-                        <div class="info">
-                            <h4>Villa Jumeirah</h4>
-                            <span>Landscaping</span>
-                        </div>
-                    </div>
-                    <div class="showcase-item" data-cat="pool" style="background-image: url('https://images.unsplash.com/photo-1590490360182-c33d59735288?auto=format&fit=crop&q=80&w=1000');">
-                        <div class="info">
-                            <h4>Azure Infinity</h4>
-                            <span>Pool Design</span>
-                        </div>
-                    </div>
-                    <div class="showcase-item" data-cat="interior" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1000');">
-                        <div class="info">
-                            <h4>The Atrium</h4>
-                            <span>Fitout</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="showcase-nav">
-                    <button class="active" data-show="0">01</button>
-                    <button data-show="1">02</button>
-                    <button data-show="2">03</button>
                 </div>
             </div>
         </div>
@@ -108,14 +77,18 @@
         <section id="hero" class="hero-minimal">
             <div class="hero-visual">
                 <div class="hero-img-wrap">
-                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=2000" alt="Luxury Architecture" class="parallax-img">
+                    <img src="hero-premium.png" alt="Luxury Architecture" class="parallax-img">
                 </div>
             </div>
             <div class="hero-text container">
-                <span class="reveal-text">Since 2012</span>
-                <h1 class="reveal-text">Curating <br> <span class="text-accent italic">Atmospheres</span></h1>
-                <p class="reveal-text">Bespoke landscape architecture for the most discerning estates.</p>
-                <div class="hero-scroll">
+                <span class="section-tag scroll-reveal">Global Consultancy | Dubai • Kerala</span>
+                <h1 class="scroll-reveal delay-1 glaze-text">Architectural <br> <span class="italic text-accent">Poetics.</span></h1>
+                <p class="scroll-reveal delay-2">Crafting high-end structural narratives and landscape master-plans for the discerning client base. Since 2012.</p>
+                <div class="hero-actions scroll-reveal delay-3">
+                    <a href="#work" class="btn-minimal">View Portfolio</a>
+                    <a href="consultation.html" class="btn-minimal fill">Consultation</a>
+                </div>
+                <div class="hero-scroll scroll-reveal delay-3">
                     <div class="line-grow"></div>
                     <span>Explore</span>
                 </div>
@@ -124,85 +97,200 @@
 
         <!-- Philosophy Section (About) -->
         <section id="about" class="philosophy">
-            <div class="container narrow">
+            <div class="container alternate-layout">
                 <div class="philosophy-header scroll-reveal">
-                    <span class="section-tag">Our Philosophy</span>
-                    <h2>Nature, Refined.</h2>
+                    <span class="section-tag">Vision</span>
+                    <h2>Harmonizing <br>Structure <span class="italic text-accent">&</span> Soul.</h2>
                 </div>
                 <div class="philosophy-content scroll-reveal delay-1">
-                    <p class="large">We believe that luxury lies in the harmony between structured architecture and organic growth. At Canopy, every project is a narrative told through stone, water, and leaf.</p>
+                    <p class="large">We believe that luxury lies in the harmony between structured innovation and organic sustainability. Our method is a narrative told through timeless materials and visionary planning.</p>
                     <div class="philosophy-grid">
                         <div class="phil-item">
-                            <h3>Sustainability</h3>
-                            <p>Using indigenous flora and smart irrigation to maintain beauty without compromise.</p>
+                            <h3>Structural Precision</h3>
+                            <p>Pushing the boundaries of modern design with advanced structural solutions and smart technologies that define longevity.</p>
                         </div>
                         <div class="phil-item">
-                            <h3>Elegance</h3>
-                            <p>Clean lines and premium materials that elevate the outdoor living experience.</p>
+                            <h3>Global Aesthetics</h3>
+                            <p>Curating architectural languages that resonate with international standards of luxury and local environmental respect.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Expertise Section (Services) -->
+        <!-- Expertise Section -->
         <section id="services" class="expertise">
-            <div class="expertise-bg-tint"></div>
             <div class="container row">
                 <div class="expertise-sticky scroll-reveal">
-                    <span class="section-tag">Expertise</span>
-                    <h2>Elevating the <br><span class="text-accent">Standard</span></h2>
-                    <p>From conceptually distinct swimming pools to seamless interior-exterior fitouts, our services are comprehensive and bespoke.</p>
+                    <span class="section-tag">Disciplines</span>
+                    <h2>Elevating the <br><span class="text-accent italic">Exceptional.</span></h2>
+                    <p>Comprehensive architectural consultancy to final fit-out master-planning.</p>
                 </div>
                 <div class="expertise-list">
-                    <div class="exp-card scroll-reveal" data-img="landscape">
+                    <div class="exp-card scroll-reveal">
                         <span class="count">01</span>
-                        <h3>Landscape Architecture</h3>
-                        <p>Master-planned gardens that breathe life into architectural structures.</p>
+                        <div class="exp-content">
+                            <h3>Architecture Consultancy</h3>
+                            <p>High-end structural design and master-planning for luxury residential and commercial estates across the globe.</p>
+                        </div>
                     </div>
-                    <div class="exp-card scroll-reveal delay-1" data-img="living">
+                    <div class="exp-card scroll-reveal">
                         <span class="count">02</span>
-                        <h3>Outdoor Living</h3>
-                        <p>High-end lounges, fire pits, and kitchens for the ultimate lifestyle.</p>
+                        <div class="exp-content">
+                            <h3>Landscape Master-planning</h3>
+                            <p>Curated outdoor environments that blend modern aesthetics with functional elegance and ecological respect.</p>
+                        </div>
                     </div>
-                    <div class="exp-card scroll-reveal delay-2" data-img="pool">
+                    <div class="exp-card scroll-reveal">
                         <span class="count">03</span>
-                        <h3>Water Features</h3>
-                        <p>Technically advanced infinity pools and tranquil fountains.</p>
+                        <div class="exp-content">
+                            <h3>Interior Architecture</h3>
+                            <p>Seamless execution of specialized interior elements with meticulous attention to detail and high-end materials.</p>
+                        </div>
                     </div>
-                    <div class="exp-card scroll-reveal delay-3" data-img="fitout">
+                    <div class="exp-card scroll-reveal">
                         <span class="count">04</span>
-                        <h3>Bespoke Fitouts</h3>
-                        <p>Seamless structural designs for the perfect transition.</p>
+                        <div class="exp-content">
+                            <h3>Turn-Key Management</h3>
+                            <p>End-to-end oversight from initial concept to the final, polished delivery of your architectural masterpiece.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="work" class="portfolio">
+            <div class="container">
+                <div class="portfolio-header scroll-reveal">
+                    <span class="section-tag">Selected Portfolio</span>
+                    <h2>Curated <span class="italic text-accent">Master-works</span></h2>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="project-card scroll-reveal" style="background-image: url('hero-premium.png');">
+                        <div class="project-overlay">
+                            <span>Residential</span>
+                            <h3>The Modernist Villa</h3>
+                        </div>
+                    </div>
+                    <div class="project-card scroll-reveal" style="background-image: url('atrium-premium.png');">
+                        <div class="project-overlay">
+                            <span>Hospitality</span>
+                            <h3>The Grand Atrium</h3>
+                        </div>
+                    </div>
+                    <div class="project-card scroll-reveal" style="background-image: url('garden-premium.png');">
+                        <div class="project-overlay">
+                            <span>Landscaping</span>
+                            <h3>Olive Grove Sanctuary</h3>
+                        </div>
+                    </div>
+                    <div class="project-card scroll-reveal" style="background-image: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000');">
+                        <div class="project-overlay">
+                            <span>Detail</span>
+                            <h3>Minimalist Structure</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Stats Section -->
-        <section id="stats" class="minimal-stats container">
-            <div class="stat-box scroll-reveal">
-                <span class="stat-val" data-target="12">12</span>
-                <span class="stat-txt">Years</span>
+        <section id="stats" class="minimal-stats container scroll-reveal">
+            <div class="stat-box">
+                <span class="stat-val" data-target="15">0</span>
+                <span class="stat-txt">Years of Excellence</span>
             </div>
-            <div class="stat-box scroll-reveal delay-1">
-                <span class="stat-val" data-target="450">450</span>
-                <span class="stat-txt">Projects</span>
+            <div class="stat-box">
+                <span class="stat-val" data-target="500">0</span>
+                <span class="stat-txt">Curated Projects</span>
             </div>
-            <div class="stat-box scroll-reveal delay-2">
-                <span class="stat-val" data-target="320">320</span>
-                <span class="stat-txt">Clients</span>
+            <div class="stat-box">
+                <span class="stat-val" data-target="4.2">0</span>
+                <span class="stat-txt">Million Sqft Designed</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-val" data-target="350">0</span>
+                <span class="stat-txt">Global Clients</span>
             </div>
         </section>
 
-        <!-- Contact CTA -->
+        <!-- Why Choose Us -->
+        <section id="why" class="why-us">
+            <div class="container narrow">
+                <div class="why-header scroll-reveal">
+                    <span class="section-tag">Value Proposition</span>
+                    <h2>The <span class="text-accent italic">Bespoke</span> Standard</h2>
+                </div>
+                <div class="why-grid">
+                    <div class="why-item scroll-reveal">
+                        <h3>Tailored Narrative</h3>
+                        <p>We do not believe in templates. Every architectural journey is curated to your specific lifestyle and vision.</p>
+                    </div>
+                    <div class="why-item scroll-reveal delay-1">
+                        <h3>Advanced Planning</h3>
+                        <p>Our project management ensures that your vision is realized within the agreed timeline through meticulous strategy.</p>
+                    </div>
+                    <div class="why-item scroll-reveal delay-2">
+                        <h3>Attention to Grain</h3>
+                        <p>We obsess over the precision of every joint, every stone, and every shadow cast by our structural designs.</p>
+                    </div>
+                    <div class="why-item scroll-reveal delay-3">
+                        <h3>Integrated Tech</h3>
+                        <p>Merging the latest smart systems with timeless architectural honesty for a future-proof residence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="testimonials">
+            <div class="container container-narrow">
+                <div class="testi-slider scroll-reveal">
+                    <div class="testi-item active">
+                        <p class="large">"Canopy Architects transformed our estate into a structural masterpiece. Their precision and visionary planning are beyond compare."</p>
+                        <span class="client-name">— Lord Arthur Sterling</span>
+                    </div>
+                    <div class="testi-item">
+                        <p class="large">"A truly bespoke experience. From the initial architecture consultancy to the final fit-out, the process was seamless and visionary."</p>
+                        <span class="client-name">— Elena Rossi, Rossi Developments</span>
+                    </div>
+                </div>
+                <div class="testi-nav">
+                    <button class="testi-prev"><i class="fa-solid fa-arrow-left-long"></i></button>
+                    <button class="testi-next"><i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
         <section id="contact" class="minimal-contact">
-            <div class="container center-content">
-                <div class="contact-card glass scroll-reveal">
-                    <span class="section-tag">Inquiry</span>
-                    <h2>Start Your <span class="text-accent">Odyssey</span></h2>
-                    <p>Begin a conversation regarding your next architectural landscape project.</p>
-                    <a href="mailto:hello@canopycompany.com" class="btn-minimal">Connect with us</a>
+            <div class="container">
+                <div class="contact-card scroll-reveal">
+                    <div class="contact-info">
+                        <span class="section-tag">Inquiry</span>
+                        <h2>Initiate Your <br><span class="italic text-accent">Vision.</span></h2>
+                        <p>Begin a conversation regarding your next architectural odyssey today.</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Johnathan Doe">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Consultancy Type</label>
+                            <input type="text" placeholder="Residential Architecture">
+                        </div>
+                        <div class="form-group">
+                            <label>Brief Vision</label>
+                            <textarea placeholder="Describe your masterpiece"></textarea>
+                        </div>
+                        <button type="submit" class="btn-minimal fill">Send Inquiry</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -211,12 +299,13 @@
         <footer id="minimal-footer">
             <div class="container footer-flex">
                 <div class="footer-left">
-                    <p>&copy; 2026 Canopy Company.</p>
+                    <p>&copy; 2026 Canopy Architects. All Rights Reserved.</p>
                 </div>
                 <div class="footer-right">
-                    <a href="#">Instagram</a>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Privacy</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
         </footer>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bespoke Consultation | Canopy Architects</title>
+    <meta name="description" content="Schedule a private architectural consultancy with Canopy Architects. Dubai • Kerala.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="loaded">
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Header -->
+    <header id="site-header">
+        <a href="index.html" class="logo">
+            <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 5L95 95L50 85L5 95L50 5Z" stroke="#BFA16F" stroke-width="2" />
+                <circle cx="50" cy="50" r="4" fill="#BFA16F" />
+            </svg>
+            <span>CANOPY</span>
+        </a>
+        <a href="index.html" class="close-consultation"><i class="fa-solid fa-xmark"></i></a>
+    </header>
+
+    <main class="consultation-page">
+        <section class="consultation-hero container">
+            <div class="consultation-wrap scroll-reveal active">
+                <div class="consult-info">
+                    <span class="section-tag">Direct Access</span>
+                    <h1>Private <br><span class="italic text-accent">Engagement.</span></h1>
+                    <p>Provide the basic contours of your vision. Our senior architectural consultants will contact you to initiate a curated strategy.</p>
+                    
+                    <div class="direct-contact">
+                        <div class="contact-item">
+                            <span>Dubai Studio</span>
+                            <p>+971 4 000 0000</p>
+                        </div>
+                        <div class="contact-item">
+                            <span>Kerala Studio</span>
+                            <p>+91 484 0000 000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="consult-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Design Interrogator (Name)</label>
+                            <input type="text" placeholder="Johnathan Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Location of Vision</label>
+                        <input type="text" placeholder="e.g. Dubai, London, Zurich">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Project Typography</label>
+                        <select>
+                            <option>Residential Villa</option>
+                            <option>Commercial Development</option>
+                            <option>Bespoke Interior</option>
+                            <option>Landscape Odyssey</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>The Vision</label>
+                        <textarea placeholder="Describe the atmosphere, scale, and soul of your project..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-minimal fill">Initialize Consultation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
