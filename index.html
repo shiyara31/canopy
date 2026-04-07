@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canopy Architects | Luxury High-End Architectural Landscapes</title>
-    <meta name="description" content="Canopy Architects: Master-planning, architecture consultancy, and luxury landscape fit-outs. We craft cinematic architectural experiences.">
+    <meta name="description" content="Canopy Design Studio: Master-planning, architecture consultancy, and luxury landscape design. We craft cinematic architectural experiences.">
     
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Literata:ital,wght@0,300;0,400;1,300;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -18,9 +16,7 @@
 </head>
 <body class="is-loading">
 
-    <!-- Custom Cursor -->
-    <div class="custom-cursor"></div>
-    <div class="custom-cursor-follower"></div>
+
 
     <!-- Preloader -->
     <div id="preloader">
@@ -51,7 +47,6 @@
                     <li><a href="#hero" data-text="Home">Home</a></li>
                     <li><a href="#about" data-text="About">About</a></li>
                     <li><a href="#services" data-text="Services">Services</a></li>
-                    <li><a href="#why" data-text="Process">Process</a></li>
                     <li><a href="#work" data-text="Portfolio">Portfolio</a></li>
                     <li><a href="#contact" data-text="Contact">Contact</a></li>
                 </ul>
@@ -77,16 +72,16 @@
         <section id="hero" class="hero-minimal">
             <div class="hero-visual">
                 <div class="hero-img-wrap">
-                    <img src="hero-premium.png" alt="Luxury Architecture" class="parallax-img">
+                    <!-- Removed Video -->
                 </div>
             </div>
             <div class="hero-text container">
                 <span class="section-tag scroll-reveal">Global Consultancy | Dubai • Kerala</span>
                 <h1 class="scroll-reveal delay-1 glaze-text">Architectural <br> <span class="italic text-accent">Poetics.</span></h1>
-                <p class="scroll-reveal delay-2">Crafting high-end structural narratives and landscape master-plans for the discerning client base. Since 2012.</p>
+                <p class="scroll-reveal delay-2">Designing high-end conceptual narratives and landscape master-plans for a discerning global clientele. Since 2012.</p>
                 <div class="hero-actions scroll-reveal delay-3">
                     <a href="#work" class="btn-minimal">View Portfolio</a>
-                    <a href="consultation.html" class="btn-minimal fill">Consultation</a>
+                    <a href="#contact" class="btn-minimal fill">Consultation</a>
                 </div>
                 <div class="hero-scroll scroll-reveal delay-3">
                     <div class="line-grow"></div>
@@ -100,14 +95,14 @@
             <div class="container alternate-layout">
                 <div class="philosophy-header scroll-reveal">
                     <span class="section-tag">Vision</span>
-                    <h2>Harmonizing <br>Structure <span class="italic text-accent">&</span> Soul.</h2>
+                    <h2>Designing <br>Form <span class="italic text-accent">&</span> Experience.</h2>
                 </div>
                 <div class="philosophy-content scroll-reveal delay-1">
                     <p class="large">We believe that luxury lies in the harmony between structured innovation and organic sustainability. Our method is a narrative told through timeless materials and visionary planning.</p>
                     <div class="philosophy-grid">
                         <div class="phil-item">
-                            <h3>Structural Precision</h3>
-                            <p>Pushing the boundaries of modern design with advanced structural solutions and smart technologies that define longevity.</p>
+                            <h3>Design Precision</h3>
+                            <p>Pushing the boundaries of modern aesthetics with advanced design solutions and spatial intelligence that define longevity.</p>
                         </div>
                         <div class="phil-item">
                             <h3>Global Aesthetics</h3>
@@ -124,14 +119,14 @@
                 <div class="expertise-sticky scroll-reveal">
                     <span class="section-tag">Disciplines</span>
                     <h2>Elevating the <br><span class="text-accent italic">Exceptional.</span></h2>
-                    <p>Comprehensive architectural consultancy to final fit-out master-planning.</p>
+                    <p>Comprehensive architectural consultancy from conceptual design to final master-planning.</p>
                 </div>
                 <div class="expertise-list">
                     <div class="exp-card scroll-reveal">
                         <span class="count">01</span>
                         <div class="exp-content">
                             <h3>Architecture Consultancy</h3>
-                            <p>High-end structural design and master-planning for luxury residential and commercial estates across the globe.</p>
+                            <p>High-end conceptual design and master-planning for luxury residential and commercial estates across the globe.</p>
                         </div>
                     </div>
                     <div class="exp-card scroll-reveal">
@@ -151,8 +146,8 @@
                     <div class="exp-card scroll-reveal">
                         <span class="count">04</span>
                         <div class="exp-content">
-                            <h3>Turn-Key Management</h3>
-                            <p>End-to-end oversight from initial concept to the final, polished delivery of your architectural masterpiece.</p>
+                            <h3>Design Direction</h3>
+                            <p>End-to-end oversight and aesthetic coordination from initial concept to the final, polished vision of your masterpiece.</p>
                         </div>
                     </div>
                 </div>
@@ -167,81 +162,113 @@
                     <h2>Curated <span class="italic text-accent">Master-works</span></h2>
                 </div>
                 <div class="portfolio-grid">
-                    <div class="project-card scroll-reveal" style="background-image: url('hero-premium.png');">
+                    <div class="project-card scroll-reveal" 
+                         data-title="The Curated Lounge"
+                         data-category="Interior Design"
+                         data-description="A structural study in materiality and traditional dialogue. This double-height lounge features massive timber pillars integrated with sculptural furniture and calligraphic narratives."
+                         data-images="curated-lounge-final.jpg,lounge-gal-1.png,lounge-gal-2.png,lounge-gal-3.png,lounge-gal-4.png,lounge-gal-5.png,living-02.jpg,khader3.jpg,khader4.jpg,khader5.jpg,khader6.jpg">
+                        <div class="project-overlay">
+                            <span>Interior</span>
+                            <h3>The Curated Lounge</h3>
+                            <p class="view-project">View Project <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="project-card scroll-reveal" 
+                         data-title="The Gilded Refectory"
+                         data-category="Residence"
+                         data-client="khader"
+                         data-location="vidyanagar, kasargod"
+                         data-area="14200 sqft"
+                         data-description="An architectural dialogue between heritage warmth and contemporary form. This private sanctuary integrates custom-grain wood paneling with artisanal stone sculptures to create a narrative of quiet, elevated luxury."
+                         data-images="khader pics/khader1.jpg,khader pics/khader2.jpg,khader pics/khader8.jpg,khader pics/khader9.jpg,khader pics/khader10.jpg,khader pics/khader31.jpg,khader pics/khader32.jpg,khader pics/khader33.jpg,khader pics/khader34.jpg,khader pics/khader35.jpg,khader pics/khader36.jpg,khader pics/khader37.jpg,khader pics/khader38.jpg,khader pics/khader39.jpg,khader pics/khader40.jpg,khader pics/khader41.jpg,khader pics/khader42.jpg,khader pics/khader43.jpg,khader pics/khader44.jpg,khader pics/khader45.jpg,khader pics/khader46.jpg,khader pics/khader47.jpg,khader pics/khader48.jpg,khader pics/khader49.jpg,khader pics/khader50.jpg,khader pics/khader51.jpg,khader pics/khader52.jpg,khader pics/khader53.jpg,khader pics/khader54.jpg,khader pics/khader55.jpg,khader pics/khader56.jpg,khader pics/khader57.jpg,khader pics/khader58.jpg,khader pics/khader59.jpg,khader pics/khader60.jpg,khader pics/khader61.jpg,khader pics/khader62.jpg,khader pics/khader63.jpg,khader pics/khader64.jpg,khader pics/khader65.jpg,khader pics/khader66.jpg,khader pics/khader67.jpg,khader pics/khader68.jpg,khader pics/khader69.jpg,khader pics/khader70.jpg,khader pics/khader71.jpg,khader pics/khader72.jpg,khader pics/khader73.jpg,khader pics/khader74.jpg,khader pics/khader75.jpg,khader pics/khader76.jpg,khader pics/khader77.jpg,khader pics/khader78.jpg,khader pics/khader79.jpg,khader pics/khader80.jpg,khader pics/khader81.jpg,khader pics/khader82.jpg,khader pics/khader83.jpg,khader pics/khader84.jpg,khader pics/khader85.jpg,khader pics/khader86.jpg,khader pics/khader87.jpg,khader pics/khader88.jpg,khader pics/khader89.jpg,khader pics/khader90.jpg,khader pics/khader91.jpg,khader pics/khader92.jpg,khader pics/khader93.jpg,khader pics/khader94.jpg,khader pics/khader95.jpg">
+                        <div class="project-overlay">
+                            <span>Residence</span>
+                            <h3>The Gilded Refectory</h3>
+                            <p class="view-project">View Project <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all-cta scroll-reveal">
+                    <span class="section-tag">Explore All Works</span>
+                    <h2>See what we can <br><span class="italic text-accent">Design Together.</span></h2>
+                    <button id="viewAllProjects" class="btn-minimal">View All Projects</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Archive Overlay (Hidden) -->
+        <div id="archive-overlay" class="archive-overlay" data-lenis-prevent>
+            <div class="archive-bg"></div>
+            <div class="archive-content container">
+                <div class="archive-header">
+                    <h2 class="glaze-text">Project Archive</h2>
+                    <div class="close-archive"><i class="fa-solid fa-xmark"></i> Close Explore</div>
+                </div>
+                <div class="archive-grid">
+                    <!-- Additional project items -->
+                    <div class="project-card" 
+                         data-title="The Curated Lounge"
+                         data-category="Interior Design"
+                         data-description="A structural study in materiality and traditional dialogue. This double-height lounge features massive timber pillars integrated with sculptural furniture and calligraphic narratives."
+                         data-images="curated-lounge-final.jpg,lounge-gal-1.png,lounge-gal-2.png,lounge-gal-3.png,lounge-gal-4.png,lounge-gal-5.png,living-02.jpg,khader3.jpg,khader4.jpg,khader5.jpg,khader6.jpg">
+                        <div class="project-overlay">
+                            <span>Interior</span>
+                            <h3>The Curated Lounge</h3>
+                            <p class="view-project">View <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="project-card" 
+                         data-title="The Gilded Refectory"
+                         data-category="Residence"
+                         data-client="khader"
+                         data-location="vidyanagar, kasargod"
+                         data-area="14200 sqft"
+                         data-description="An architectural dialogue between heritage warmth and contemporary form. This private sanctuary integrates custom-grain wood paneling with artisanal stone sculptures to create a narrative of quiet, elevated luxury."
+                         data-images="khader pics/khader1.jpg,khader pics/khader2.jpg,khader pics/khader8.jpg,khader pics/khader9.jpg,khader pics/khader10.jpg,khader pics/khader31.jpg,khader pics/khader32.jpg,khader pics/khader33.jpg,khader pics/khader34.jpg,khader pics/khader35.jpg,khader pics/khader36.jpg,khader pics/khader37.jpg,khader pics/khader38.jpg,khader pics/khader39.jpg,khader pics/khader40.jpg,khader pics/khader41.jpg,khader pics/khader42.jpg,khader pics/khader43.jpg,khader pics/khader44.jpg,khader pics/khader45.jpg,khader pics/khader46.jpg,khader pics/khader47.jpg,khader pics/khader48.jpg,khader pics/khader49.jpg,khader pics/khader50.jpg,khader pics/khader51.jpg,khader pics/khader52.jpg,khader pics/khader53.jpg,khader pics/khader54.jpg,khader pics/khader55.jpg,khader pics/khader56.jpg,khader pics/khader57.jpg,khader pics/khader58.jpg,khader pics/khader59.jpg,khader pics/khader60.jpg,khader pics/khader61.jpg,khader62.jpg,khader63.jpg,khader64.jpg,khader65.jpg,khader66.jpg,khader67.jpg,khader68.jpg,khader69.jpg,khader70.jpg,khader71.jpg,khader72.jpg,khader73.jpg,khader74.jpg,khader75.jpg,khader76.jpg,khader77.jpg,khader78.jpg,khader79.jpg,khader80.jpg,khader81.jpg,khader82.jpg,khader83.jpg,khader84.jpg,khader85.jpg,khader86.jpg,khader87.jpg,khader88.jpg,khader89.jpg,khader90.jpg,khader91.jpg,khader92.jpg,khader93.jpg,khader94.jpg,khader95.jpg">
+                        <div class="project-overlay">
+                            <span>Residence</span>
+                            <h3>The Gilded Refectory</h3>
+                            <p class="view-project">View <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="project-card" 
+                         data-title="The Floating Pavilion"
+                         data-category="Landscape"
+                         data-description="A minimalist structure suspended over a private lake, blending architecture with the surrounding water and flora."
+                         data-images="service-landscape.png,project-pool.png">
+                        <div class="project-overlay">
+                            <span>Landscape</span>
+                            <h3>The Floating Pavilion</h3>
+                            <p class="view-project">View <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="project-card" 
+                         data-title="Azure Infinite"
+                         data-category="Pool Design"
+                         data-description="An infinity pool project designed to seamlessly merge with the ocean horizon, featuring architectural water spouts."
+                         data-images="service-water.png,pool-premium.png">
+                        <div class="project-overlay">
+                            <span>Aquatic</span>
+                            <h3>Azure Infinite</h3>
+                            <p class="view-project">View <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="project-card" 
+                         data-title="Brutalist Garden"
+                         data-category="Residential"
+                         data-description="Raw concrete meets lush greenery in this minimalist garden design for a private Brutalist residence."
+                         data-images="project-atrium.png,garden-premium.png">
                         <div class="project-overlay">
                             <span>Residential</span>
-                            <h3>The Modernist Villa</h3>
-                        </div>
-                    </div>
-                    <div class="project-card scroll-reveal" style="background-image: url('atrium-premium.png');">
-                        <div class="project-overlay">
-                            <span>Hospitality</span>
-                            <h3>The Grand Atrium</h3>
-                        </div>
-                    </div>
-                    <div class="project-card scroll-reveal" style="background-image: url('garden-premium.png');">
-                        <div class="project-overlay">
-                            <span>Landscaping</span>
-                            <h3>Olive Grove Sanctuary</h3>
-                        </div>
-                    </div>
-                    <div class="project-card scroll-reveal" style="background-image: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000');">
-                        <div class="project-overlay">
-                            <span>Detail</span>
-                            <h3>Minimalist Structure</h3>
+                            <h3>Brutalist Garden</h3>
+                            <p class="view-project">View <i class="fa-solid fa-arrow-right-long"></i></p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- Stats Section -->
-        <section id="stats" class="minimal-stats container scroll-reveal">
-            <div class="stat-box">
-                <span class="stat-val" data-target="15">0</span>
-                <span class="stat-txt">Years of Excellence</span>
-            </div>
-            <div class="stat-box">
-                <span class="stat-val" data-target="500">0</span>
-                <span class="stat-txt">Curated Projects</span>
-            </div>
-            <div class="stat-box">
-                <span class="stat-val" data-target="4.2">0</span>
-                <span class="stat-txt">Million Sqft Designed</span>
-            </div>
-            <div class="stat-box">
-                <span class="stat-val" data-target="350">0</span>
-                <span class="stat-txt">Global Clients</span>
-            </div>
-        </section>
-
-        <!-- Why Choose Us -->
-        <section id="why" class="why-us">
-            <div class="container narrow">
-                <div class="why-header scroll-reveal">
-                    <span class="section-tag">Value Proposition</span>
-                    <h2>The <span class="text-accent italic">Bespoke</span> Standard</h2>
-                </div>
-                <div class="why-grid">
-                    <div class="why-item scroll-reveal">
-                        <h3>Tailored Narrative</h3>
-                        <p>We do not believe in templates. Every architectural journey is curated to your specific lifestyle and vision.</p>
-                    </div>
-                    <div class="why-item scroll-reveal delay-1">
-                        <h3>Advanced Planning</h3>
-                        <p>Our project management ensures that your vision is realized within the agreed timeline through meticulous strategy.</p>
-                    </div>
-                    <div class="why-item scroll-reveal delay-2">
-                        <h3>Attention to Grain</h3>
-                        <p>We obsess over the precision of every joint, every stone, and every shadow cast by our structural designs.</p>
-                    </div>
-                    <div class="why-item scroll-reveal delay-3">
-                        <h3>Integrated Tech</h3>
-                        <p>Merging the latest smart systems with timeless architectural honesty for a future-proof residence.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Why Choose Us removed for minimalism -->
 
         <!-- Testimonials -->
         <section id="testimonials" class="testimonials">
@@ -252,7 +279,7 @@
                         <span class="client-name">— Lord Arthur Sterling</span>
                     </div>
                     <div class="testi-item">
-                        <p class="large">"A truly bespoke experience. From the initial architecture consultancy to the final fit-out, the process was seamless and visionary."</p>
+                        <p class="large">"A truly bespoke experience. From the initial architecture consultancy to the final design delivery, the process was seamless and visionary."</p>
                         <span class="client-name">— Elena Rossi, Rossi Developments</span>
                     </div>
                 </div>
@@ -283,7 +310,7 @@
                         </div>
                         <div class="form-group">
                             <label>Consultancy Type</label>
-                            <input type="text" placeholder="Residential Architecture">
+                            <input type="text" placeholder="Interior Design Consultancy">
                         </div>
                         <div class="form-group">
                             <label>Brief Vision</label>
@@ -294,6 +321,30 @@
                 </div>
             </div>
         </section>
+
+        <!-- Project Modal (Lightbox) -->
+        <div id="project-modal" class="project-modal" data-lenis-prevent>
+            <div class="modal-bg"></div>
+            <div class="modal-content container">
+                <div class="modal-header">
+                    <span class="modal-category">Category</span>
+                    <h2 class="modal-title glaze-text">Project Title</h2>
+                    <div class="modal-close"><i class="fa-solid fa-xmark"></i> Close</div>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-details">
+                        <p class="modal-description large">Detailed project description goes here...</p>
+                        <div class="modal-info-grid">
+                            <!-- Info injected here -->
+                        </div>
+                        <a href="#contact" class="btn-minimal modal-cta">Inquire About This Design</a>
+                    </div>
+                    <div class="modal-gallery">
+                        <!-- Images will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Footer -->
         <footer id="minimal-footer">
@@ -312,6 +363,17 @@
 
     </main>
 
+    <!-- Full-Screen Lightbox -->
+    <div id="gallery-lightbox" class="gallery-lightbox">
+        <div class="lightbox-bg"></div>
+        <div class="lightbox-close"><i class="fa-solid fa-xmark"></i></div>
+        <div class="lightbox-content">
+            <img src="" alt="Full-Screen Image" id="lightbox-img">
+        </div>
+    </div>
+
+    <!-- Smooth Scrolling -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
